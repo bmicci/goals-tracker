@@ -236,26 +236,26 @@ const DAYS = [
     ]
   },
   {
-    date: "Fri, Feb 27", week: 2, tag: "Consolidation Day",
-    theme: "Close loops. Pipeline review. Admin cleanup.",
+    date: "Fri, Feb 27", week: 2, tag: "Light Day — Interviews + Workout",
+    theme: "Keep it light. Gym, Goldman Sachs & RealPage interviews, walk, TRT regime starts.",
     blocks: [
       { t: "7:00 AM", cat: "sleep", task: "Wake up — sunlight, hydrate" },
       { t: "7:15", cat: "wellness", task: "Meditation + journaling" },
       { t: "7:30", cat: "recovery", task: "Morning stretch (15-20 min)" },
       { t: "8:00", cat: "fitness", task: "Gym: Full body — compound lifts, moderate weight (60 min)" },
       { t: "9:15", cat: "personal", task: "Breakfast" },
-      { t: "10:00", cat: "job", task: "Weekly review: Total apps, responses, interviews, pipeline health" },
-      { t: "11:00", cat: "heloc", task: "HELOC: Status across all lenders. Front-runner? Drop laggards?" },
-      { t: "11:45", cat: "legal", task: "BoA: Attorney pipeline — engaged? Next steps? Expand search?" },
-      { t: "12:30", cat: "personal", task: "Lunch" },
-      { t: "1:15", cat: "health", task: "Book Hyatt Legal Plan consultation(s) — severance + BoA case" },
-      { t: "2:00", cat: "admin", task: "Admin sweep: Shun knife, Bissell steamer, Best Buy stereo, GEICO" },
-      { t: "3:00", cat: "fitness", task: "Outdoor walk (30-45 min)" },
-      { t: "4:00", cat: "personal", task: "Free time" },
-      { t: "5:30", cat: "personal", task: "Dinner" },
-      { t: "7:00", cat: "personal", task: "Reward night — out, socialize, date" },
-      { t: "10:30", cat: "sleep", task: "Wind down (Fri flex)" },
-      { t: "11:30", cat: "sleep", task: "Lights out" },
+      { t: "10:00", cat: "job", task: "Interview prep — review Goldman Sachs & RealPage roles, talking points" },
+      { t: "11:00", cat: "job", task: "📞 Interview: Goldman Sachs" },
+      { t: "12:00", cat: "personal", task: "Lunch + decompress between interviews" },
+      { t: "1:00 PM", cat: "job", task: "📞 Interview: RealPage" },
+      { t: "2:00", cat: "personal", task: "Post-interview notes — capture key takeaways, follow-up items" },
+      { t: "3:00", cat: "fitness", task: "Outdoor walk (30-45 min) — clear head, fresh air" },
+      { t: "4:00", cat: "health", task: "💉 TRT: Note — hCG + Anastrozole 1 mg done yesterday (Thu Feb 26). Next: hCG Sun Mar 1" },
+      { t: "4:30", cat: "personal", task: "Free time — keep it light" },
+      { t: "6:00", cat: "personal", task: "Dinner" },
+      { t: "7:00", cat: "personal", task: "Free time — relax, reward yourself" },
+      { t: "10:00", cat: "sleep", task: "Wind down (Fri flex)" },
+      { t: "11:00", cat: "sleep", task: "Lights out" },
     ]
   },
   {
@@ -280,11 +280,12 @@ const DAYS = [
   },
   {
     date: "Sun, Mar 1", week: 2, tag: "Week 2 Review + Plan",
-    theme: "Review progress. Plan Week 3 — the final March 19 push.",
+    theme: "Review progress. Plan Week 3 — the final March 19 push. TRT: hCG today.",
     blocks: [
       { t: "8:00 AM", cat: "sleep", task: "Wake up — sunlight, hydrate" },
       { t: "8:15", cat: "wellness", task: "Meditation + gratitude journal" },
       { t: "8:30", cat: "recovery", task: "Extended stretch (20-30 min) — yoga flow" },
+      { t: "9:00", cat: "health", task: "💉 TRT: hCG injection" },
       { t: "9:15", cat: "personal", task: "Breakfast" },
       { t: "10:00", cat: "personal", task: "Week 3 planning: Map final 18 days to March 19. What's left?" },
       { t: "11:00", cat: "job", task: "Full pipeline review — adjust strategy based on 2 weeks of data" },
@@ -306,11 +307,12 @@ const DAYS = [
   // ═══════════════════════════════════════════
   {
     date: "Mon, Mar 2", week: 3, tag: "Job Search Acceleration",
-    theme: "Ramp job search to max. 11 days to March 19.",
+    theme: "Ramp job search to max. 11 days to March 19. TRT: Testosterone injection today.",
     blocks: [
       { t: "7:00 AM", cat: "sleep", task: "Wake up — sunlight, hydrate" },
       { t: "7:15", cat: "wellness", task: "Meditation + journaling" },
       { t: "7:30", cat: "recovery", task: "Morning stretch (15-20 min)" },
+      { t: "7:45", cat: "health", task: "💉 TRT: Testosterone injection (Week 1)" },
       { t: "8:00", cat: "fitness", task: "Gym: Heavy legs — squats, deadlifts, hip thrusts (60 min)" },
       { t: "9:15", cat: "personal", task: "Breakfast" },
       { t: "10:00", cat: "job", task: "Deep work: Apply to 5+ roles. Expand targets if needed" },
@@ -376,11 +378,12 @@ const DAYS = [
   },
   {
     date: "Thu, Mar 5", week: 3, tag: "Networking + Pilates",
-    theme: "Network hard. Interview prep. Evening Pilates.",
+    theme: "Network hard. Interview prep. Evening Pilates. TRT: hCG + Anastrozole today.",
     blocks: [
       { t: "7:00 AM", cat: "sleep", task: "Wake up — sunlight, hydrate" },
       { t: "7:15", cat: "wellness", task: "Meditation + journaling" },
       { t: "7:30", cat: "recovery", task: "Morning stretch (15-20 min)" },
+      { t: "7:45", cat: "health", task: "💉 TRT: hCG injection + Anastrozole 1 mg" },
       { t: "8:00", cat: "fitness", task: "Gym: Legs + core — front squats, RDLs, lunges, planks (60 min)" },
       { t: "9:15", cat: "personal", task: "Breakfast" },
       { t: "10:00", cat: "job", task: "Network: Reach out to 5-10 contacts. Follow up on all warm leads" },
@@ -443,11 +446,12 @@ const DAYS = [
   },
   {
     date: "Sun, Mar 8", week: 3, tag: "Final Push Planning",
-    theme: "11 days to March 19. Lock in the plan. Optional 2nd massage.",
+    theme: "11 days to March 19. Lock in the plan. Optional 2nd massage. TRT: hCG today.",
     blocks: [
       { t: "8:00 AM", cat: "sleep", task: "Wake up — sunlight, hydrate" },
       { t: "8:15", cat: "wellness", task: "Meditation + gratitude journal" },
       { t: "8:30", cat: "recovery", task: "Extended stretch (20-30 min)" },
+      { t: "9:00", cat: "health", task: "💉 TRT: hCG injection" },
       { t: "9:15", cat: "personal", task: "Breakfast" },
       { t: "10:00", cat: "personal", task: "Final sprint planning: March 9-19 priorities + unemployment filing prep" },
       { t: "11:00", cat: "job", task: "Pipeline review — interviews? Offers? What needs acceleration?" },
