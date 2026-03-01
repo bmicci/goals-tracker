@@ -125,9 +125,11 @@
 | 9:15 | ☀️ Personal | Breakfast |
 | 10:00 | 🩺 Health | 🩺 Doctor: Physical + blood work appointment |
 | 11:30 | 📋 Admin | 📞 Geico claim — call and follow up |
+| 12:00 PM | 🎯 Job Search | 📞 Quick Connect A&R: Jon/Brandon (Zoom) |
 | 12:30 | ☀️ Personal | Lunch |
-| 1:00 PM | 🏠 HELOC | HELOC: Final push — where are we? Decision needed |
-| 2:00 | 🎯 Job Search | Interview prep — review McKesson role, talking points, STAR examples |
+| 1:00 | 🏠 HELOC | HELOC: Final push — where are we? Decision needed |
+| 2:00 | 🎯 Job Search | 📞 Meeting with Frances Augustine |
+| 3:00 | 🎯 Job Search | Interview prep — review McKesson role, talking points, STAR examples |
 | 3:30 | 🎯 Job Search | 📞 McKesson Interview (3:30 PM CST) |
 | 4:30 | 💪 Fitness | Outdoor walk (30-45 min) |
 | 5:30 | ☀️ Personal | Free time |
