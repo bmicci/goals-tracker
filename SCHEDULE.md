@@ -101,6 +101,7 @@
 | 12:45 | 🏠 HELOC | HELOC: Final assessment — close or abandon stragglers |
 | 1:30 | ⚖️ Legal/BoA | BoA: Attorney status + CFPB rebuttal finalization |
 | 2:30 | 🧊 Recovery | 💆 Optional 2nd massage (or rest) |
+| 3:30 | ☀️ Personal | 🎯 Target run — paper towels, hair gel |
 | 4:00 | 💪 Fitness | Gym: Upper body (60 min) |
 | 5:15 | 💪 Fitness | Outdoor walk (30 min) |
 | 6:00 | ☀️ Personal | Dinner |
@@ -110,9 +111,9 @@
 
 ---
 
-## Mon, Mar 2 — Job Search Acceleration
+## Mon, Mar 2 — Interview Day + Doctor + Claims
 
-> *Ramp job search to max. 17 days to March 19. TRT: Testosterone injection today.*
+> *Big interview. Doctor/physical + TRT injection. Geico claim. 17 days to March 19.*
 
 | Time | Cat | Task |
 |------|-----|------|
@@ -122,12 +123,12 @@
 | 7:45 | 🩺 Health | 💉 TRT: Testosterone injection (Week 1) |
 | 8:00 | 💪 Fitness | Gym: Heavy legs — squats, deadlifts, hip thrusts (60 min) |
 | 9:15 | ☀️ Personal | Breakfast |
-| 10:00 | 🎯 Job Search | Deep work: Apply to 5+ roles. Expand targets if needed |
-| 12:00 | 🎯 Job Search | Cold outreach: 5 hiring managers or VPs at new target companies |
-| 12:45 | ☀️ Personal | Lunch |
-| 1:30 | 🎯 Job Search | LinkedIn: New thought leadership post + engage with 10 posts |
-| 2:30 | 🎯 Job Search | Follow up on ALL pending recruiter conversations |
-| 3:15 | 🏠 HELOC | HELOC: Final push — where are we? Decision needed |
+| 10:00 | 🩺 Health | 🩺 Doctor: Physical + blood work appointment |
+| 11:30 | 🎯 Job Search | Interview prep — review role, talking points, STAR examples |
+| 12:30 | ☀️ Personal | Lunch |
+| 1:30 | 🎯 Job Search | 📞 BIG INTERVIEW (update time when confirmed) |
+| 3:00 | 📋 Admin | 📞 Geico claim — call and follow up |
+| 3:30 | 🏠 HELOC | HELOC: Final push — where are we? Decision needed |
 | 4:00 | 💪 Fitness | Outdoor walk (30-45 min) |
 | 5:00 | ☀️ Personal | Free time |
 | 6:00 | ☀️ Personal | Dinner |
@@ -141,9 +142,9 @@
 
 ---
 
-## Tue, Mar 3 — Benefits Final Push
+## Tue, Mar 3 — Benefits + Errands
 
-> *Last big benefits sweep. Evening yoga.*
+> *Benefits sweep. Mall: arbitration + ALO returns. Cancel subscriptions. Evening yoga.*
 
 | Time | Cat | Task |
 |------|-----|------|
@@ -154,11 +155,12 @@
 | 9:15 | ☀️ Personal | Breakfast |
 | 10:00 | 🩺 Health | Benefits final push: Confirm all medical appts before March 19 |
 | 10:45 | 🩺 Health | MRA/FSA: Spend remaining balances on eligible items |
-| 11:30 | 🩺 Health | Hyatt Legal Plan: Final consult if not done |
+| 11:30 | ☀️ Personal | 🛍️ Mall: Arbitration + ALO returns |
 | 12:15 | ☀️ Personal | Lunch |
-| 1:00 PM | 🎯 Job Search | Apply to 3-5 roles |
-| 2:30 | 🎯 Job Search | Interview prep for any scheduled calls |
-| 3:15 | 📋 Admin | Admin: Final consumer claims sweep (anything remaining) |
+| 1:00 PM | 📋 Admin | Cancel nasal strips subscription + review other subscriptions |
+| 1:30 | 🎯 Job Search | Apply to 3-5 roles |
+| 2:30 | 📋 Admin | 📧 Email HR |
+| 3:00 | 📋 Admin | Admin: Final consumer claims sweep (anything remaining) |
 | 4:00 | 💪 Fitness | Outdoor walk (30 min) |
 | 5:00 | 💪 Fitness | 🧘 ClassPass: Evening yoga |
 | 6:15 | ☀️ Personal | Dinner |
@@ -168,9 +170,9 @@
 
 ---
 
-## Wed, Mar 4 — Deep Job Search
+## Wed, Mar 4 — Deep Job Search + Best Buy
 
-> *Research, outreach, applications. Keep HELOC/legal on track.*
+> *Research, outreach, applications. Best Buy appt + cancel. Financial planning.*
 
 | Time | Cat | Task |
 |------|-----|------|
@@ -180,13 +182,13 @@
 | 8:00 | 💪 Fitness | Gym: Heavy pull — rows, pull-ups, face pulls, curls (60 min) |
 | 9:15 | ☀️ Personal | Breakfast |
 | 10:00 | 🎯 Job Search | Deep work: Research 5 new target companies. Map hiring landscape |
-| 11:30 | 🎯 Job Search | Apply to 5 roles |
+| 11:30 | ☀️ Personal | 🏪 Best Buy appointment + cancel Best Buy membership/service |
 | 12:30 | ☀️ Personal | Lunch |
-| 1:15 | 🎯 Job Search | Cold outreach: 5 more contacts at target companies |
-| 2:00 | 🏠 HELOC | HELOC: Status check. Employment verification window closing |
-| 2:45 | ⚖️ Legal/BoA | BoA: Push attorney engagement. File CFPB rebuttal if ready |
+| 1:15 | 🎯 Job Search | Apply to 5 roles + cold outreach: 5 contacts at target companies |
+| 2:30 | 🏠 HELOC | HELOC: Status check. Employment verification window closing |
+| 3:00 | ⚖️ Legal/BoA | BoA: Push attorney engagement. File CFPB rebuttal if ready |
 | 3:30 | 💪 Fitness | Outdoor walk (30 min) |
-| 4:15 | ☀️ Personal | Free time |
+| 4:15 | 📋 Admin | 💰 Financial planning models — build out or review |
 | 6:00 | ☀️ Personal | Dinner |
 | 7:00 | ☀️ Personal | Free time |
 | 10:00 | 🌙 Sleep | Wind down |
@@ -210,7 +212,7 @@
 | 11:30 | 🎯 Job Search | Apply to 3-5 roles |
 | 12:30 | ☀️ Personal | Lunch |
 | 1:15 | 🎯 Job Search | Interview prep: Practice stories, update STAR examples, refine pitch |
-| 2:30 | 🎯 Job Search | LinkedIn: Engage with 10+ posts. Stay visible |
+| 2:30 | ☀️ Personal | 🌐 Website plan + goals tracker/planner updates |
 | 3:15 | 🩺 Health | Confirm all remaining medical appointments before March 19 |
 | 3:45 | 💪 Fitness | Outdoor walk (30 min) |
 | 5:00 | 💪 Fitness | 🧘 ClassPass: Evening Pilates (Align, SculptHouse, Class Studios) |
@@ -248,9 +250,9 @@
 
 ---
 
-## Sat, Mar 7 — Recovery Day
+## Sat, Mar 7 — Recovery + House Projects
 
-> *Massage + IR sauna. House + prep. Social.*
+> *Massage + IR sauna. Patio/yardwork. Plan shelves + shades upstairs. Social.*
 
 | Time | Cat | Task |
 |------|-----|------|
@@ -261,8 +263,9 @@
 | 10:00 | 🧊 Recovery | 💆 Massage (60-90 min) |
 | 11:30 | 💪 Fitness | Outdoor: cycling, hike, or long walk (60-90 min) |
 | 1:00 PM | ☀️ Personal | Lunch |
-| 1:45 | ☀️ Personal | House: clean, laundry, organize |
-| 3:15 | ☀️ Personal | Grocery + meal prep |
+| 1:45 | ☀️ Personal | 🧹 Clean patio + yardwork + paperwork |
+| 3:00 | ☀️ Personal | 📐 Plan shelves + shades upstairs |
+| 3:45 | ☀️ Personal | Grocery + meal prep |
 | 5:00 | 🧊 Recovery | 🧖 IR sauna (30-45 min) |
 | 6:00 | ☀️ Personal | Free time |
 | 7:30 | ☀️ Personal | Social: dinner, friends, date |
