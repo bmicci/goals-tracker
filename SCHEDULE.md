@@ -111,9 +111,9 @@
 
 ---
 
-## Mon, Mar 2 — Interview Day + Doctor + Claims
+## Mon, Mar 2 — McKesson Interview + Doctor + Claims
 
-> *Big interview. Doctor/physical + TRT injection. Geico claim. 17 days to March 19.*
+> *McKesson interview at 3:30 PM. Doctor/physical + TRT injection. Geico claim. 17 days to March 19.*
 
 | Time | Cat | Task |
 |------|-----|------|
@@ -124,13 +124,13 @@
 | 8:00 | 💪 Fitness | Gym: Heavy legs — squats, deadlifts, hip thrusts (60 min) |
 | 9:15 | ☀️ Personal | Breakfast |
 | 10:00 | 🩺 Health | 🩺 Doctor: Physical + blood work appointment |
-| 11:30 | 🎯 Job Search | Interview prep — review role, talking points, STAR examples |
+| 11:30 | 📋 Admin | 📞 Geico claim — call and follow up |
 | 12:30 | ☀️ Personal | Lunch |
-| 1:30 | 🎯 Job Search | 📞 BIG INTERVIEW (update time when confirmed) |
-| 3:00 | 📋 Admin | 📞 Geico claim — call and follow up |
-| 3:30 | 🏠 HELOC | HELOC: Final push — where are we? Decision needed |
-| 4:00 | 💪 Fitness | Outdoor walk (30-45 min) |
-| 5:00 | ☀️ Personal | Free time |
+| 1:00 PM | 🏠 HELOC | HELOC: Final push — where are we? Decision needed |
+| 2:00 | 🎯 Job Search | Interview prep — review McKesson role, talking points, STAR examples |
+| 3:30 | 🎯 Job Search | 📞 McKesson Interview (3:30 PM CST) |
+| 4:30 | 💪 Fitness | Outdoor walk (30-45 min) |
+| 5:30 | ☀️ Personal | Free time |
 | 6:00 | ☀️ Personal | Dinner |
 | 7:00 | ⚖️ Legal/BoA | BoA: Next steps with engaged attorney or expand search |
 | 10:00 | 🌙 Sleep | Wind down |
@@ -142,9 +142,9 @@
 
 ---
 
-## Tue, Mar 3 — Benefits + Errands
+## Tue, Mar 3 — Recruiter Call + Benefits + Errands
 
-> *Benefits sweep. Mall: arbitration + ALO returns. Cancel subscriptions. Evening yoga.*
+> *Liv (executive recruiter) call at 10 AM. Benefits sweep. Mall: arbitration + ALO returns. Cancel subscriptions. Evening yoga.*
 
 | Time | Cat | Task |
 |------|-----|------|
@@ -153,8 +153,9 @@
 | 7:30 | 🧊 Recovery | Morning stretch (15-20 min) |
 | 8:00 | 💪 Fitness | Gym: Heavy push — bench, OHP, incline DB (60 min) |
 | 9:15 | ☀️ Personal | Breakfast |
-| 10:00 | 🩺 Health | Benefits final push: Confirm all medical appts before March 19 |
-| 10:45 | 🩺 Health | MRA/FSA: Spend remaining balances on eligible items |
+| 10:00 | 🎯 Job Search | 📞 Call with Liv — executive recruiter |
+| 10:45 | 🩺 Health | Benefits final push: Confirm all medical appts before March 19 |
+| 11:15 | 🩺 Health | MRA/FSA: Spend remaining balances on eligible items |
 | 11:30 | ☀️ Personal | 🛍️ Mall: Arbitration + ALO returns |
 | 12:15 | ☀️ Personal | Lunch |
 | 1:00 PM | 📋 Admin | Cancel nasal strips subscription + review other subscriptions |

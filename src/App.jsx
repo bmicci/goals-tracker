@@ -90,8 +90,8 @@ const DAYS = [
     ]
   },
   {
-    date: "Mon, Mar 2", week: 1, tag: "Interview Day + Doctor + Claims",
-    theme: "Big interview. Doctor/physical + TRT injection. Geico claim. 17 days to March 19.",
+    date: "Mon, Mar 2", week: 1, tag: "McKesson Interview + Doctor + Claims",
+    theme: "McKesson interview at 3:30 PM. Doctor/physical + TRT injection. Geico claim. 17 days to March 19.",
     blocks: [
       { t: "7:00 AM", cat: "sleep", task: "Wake up — sunlight, hydrate" },
       { t: "7:15", cat: "wellness", task: "Meditation + journaling" },
@@ -100,13 +100,13 @@ const DAYS = [
       { t: "8:00", cat: "fitness", task: "Gym: Heavy legs — squats, deadlifts, hip thrusts (60 min)" },
       { t: "9:15", cat: "personal", task: "Breakfast" },
       { t: "10:00", cat: "health", task: "🩺 Doctor: Physical + blood work appointment" },
-      { t: "11:30", cat: "job", task: "Interview prep — review role, talking points, STAR examples" },
+      { t: "11:30", cat: "admin", task: "📞 Geico claim — call and follow up" },
       { t: "12:30", cat: "personal", task: "Lunch" },
-      { t: "1:30", cat: "job", task: "📞 BIG INTERVIEW (update time when confirmed)" },
-      { t: "3:00", cat: "admin", task: "📞 Geico claim — call and follow up" },
-      { t: "3:30", cat: "heloc", task: "HELOC: Final push — where are we? Decision needed" },
-      { t: "4:00", cat: "fitness", task: "Outdoor walk (30-45 min)" },
-      { t: "5:00", cat: "personal", task: "Free time" },
+      { t: "1:00 PM", cat: "heloc", task: "HELOC: Final push — where are we? Decision needed" },
+      { t: "2:00", cat: "job", task: "Interview prep — review McKesson role, talking points, STAR examples" },
+      { t: "3:30", cat: "job", task: "📞 McKesson Interview (3:30 PM CST)" },
+      { t: "4:30", cat: "fitness", task: "Outdoor walk (30-45 min)" },
+      { t: "5:30", cat: "personal", task: "Free time" },
       { t: "6:00", cat: "personal", task: "Dinner" },
       { t: "7:00", cat: "legal", task: "BoA: Next steps with engaged attorney or expand search" },
       { t: "10:00", cat: "sleep", task: "Wind down" },
@@ -118,16 +118,17 @@ const DAYS = [
   // WEEK 2 — SPRINT TO DEADLINE (Mar 3–9)
   // ═══════════════════════════════════════════
   {
-    date: "Tue, Mar 3", week: 2, tag: "Benefits + Errands",
-    theme: "Benefits sweep. Mall: arbitration + ALO returns. Cancel subscriptions. Evening yoga.",
+    date: "Tue, Mar 3", week: 2, tag: "Recruiter Call + Benefits + Errands",
+    theme: "Liv (executive recruiter) call at 10 AM. Benefits sweep. Mall: arbitration + ALO returns. Cancel subscriptions. Evening yoga.",
     blocks: [
       { t: "7:00 AM", cat: "sleep", task: "Wake up — sunlight, hydrate" },
       { t: "7:15", cat: "wellness", task: "Meditation + journaling" },
       { t: "7:30", cat: "recovery", task: "Morning stretch (15-20 min)" },
       { t: "8:00", cat: "fitness", task: "Gym: Heavy push — bench, OHP, incline DB (60 min)" },
       { t: "9:15", cat: "personal", task: "Breakfast" },
-      { t: "10:00", cat: "health", task: "Benefits final push: Confirm all medical appts before March 19" },
-      { t: "10:45", cat: "health", task: "MRA/FSA: Spend remaining balances on eligible items" },
+      { t: "10:00", cat: "job", task: "📞 Call with Liv — executive recruiter" },
+      { t: "10:45", cat: "health", task: "Benefits final push: Confirm all medical appts before March 19" },
+      { t: "11:15", cat: "health", task: "MRA/FSA: Spend remaining balances on eligible items" },
       { t: "11:30", cat: "personal", task: "🛍️ Mall: Arbitration + ALO returns" },
       { t: "12:15", cat: "personal", task: "Lunch" },
       { t: "1:00 PM", cat: "admin", task: "Cancel nasal strips subscription + review other subscriptions" },
