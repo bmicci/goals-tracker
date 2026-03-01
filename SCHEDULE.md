@@ -117,13 +117,13 @@
 
 | Time | Cat | Task |
 |------|-----|------|
-| 7:00 AM | 🌙 Sleep | Wake up — sunlight, hydrate |
+| 6:45 AM | 🌙 Sleep | Wake up — sunlight, hydrate |
+| 7:00 | 🩺 Health | 💉 TRT: Testosterone injection (Week 1) |
 | 7:15 | 🧘 Wellness | Meditation + journaling |
 | 7:30 | 🧊 Recovery | Morning stretch (15-20 min) |
-| 7:45 | 🩺 Health | 💉 TRT: Testosterone injection (Week 1) |
-| 8:00 | 💪 Fitness | Gym: Heavy legs — squats, deadlifts, hip thrusts (60 min) |
-| 9:15 | ☀️ Personal | Breakfast |
-| 10:00 | 🩺 Health | 🩺 Doctor: Physical + blood work appointment |
+| 8:00 | 🩺 Health | 🩺 Doctor: Physical + blood work appointment |
+| 9:30 | 💪 Fitness | Gym: Heavy legs — squats, deadlifts, hip thrusts (60 min) |
+| 10:45 | ☀️ Personal | Breakfast |
 | 11:30 | 📋 Admin | 📞 Geico claim — call and follow up |
 | 12:00 PM | 🎯 Job Search | 📞 Quick Connect A&R: Jon/Brandon (Zoom) |
 | 12:30 | ☀️ Personal | Lunch |
@@ -135,8 +135,9 @@
 | 5:30 | ☀️ Personal | Free time |
 | 6:00 | ☀️ Personal | Dinner |
 | 7:00 | ⚖️ Legal/BoA | BoA: Next steps with engaged attorney or expand search |
-| 10:00 | 🌙 Sleep | Wind down |
-| 11:00 | 🌙 Sleep | Lights out |
+| 8:00 | 🧊 Recovery | 🧊 IR Sauna (60 min) |
+| 9:30 | 🌙 Sleep | Wind down |
+| 10:30 | 🌙 Sleep | Lights out |
 
 ---
 
