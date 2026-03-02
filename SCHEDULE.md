@@ -165,10 +165,10 @@
 | 1:30 | 🎯 Job Search | Apply to 3-5 roles |
 | 2:30 | 📋 Admin | 📧 Email HR |
 | 3:00 | 📋 Admin | Admin: Final consumer claims sweep (anything remaining) |
-| 4:00 | 💪 Fitness | Outdoor walk (30 min) |
-| 5:00 | 💪 Fitness | 🧘 ClassPass: Evening yoga |
-| 6:15 | ☀️ Personal | Dinner |
-| 7:15 | ☀️ Personal | Free time |
+| 4:00 | 🧊 Recovery | 🏊 Pool: Relax + swim — last day before rain (90 min) |
+| 5:30 | 💪 Fitness | 🧘 ClassPass: Evening yoga |
+| 6:45 | ☀️ Personal | Dinner |
+| 7:30 | ☀️ Personal | Free time |
 | 10:00 | 🌙 Sleep | Wind down |
 | 11:00 | 🌙 Sleep | Lights out |
 
