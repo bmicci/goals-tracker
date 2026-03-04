@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const CAT = {
   sleep: { label: "Sleep", icon: "🌙" },
@@ -862,12 +862,41 @@ const SUCCESS = [
   "No loose admin anxiety loops",
 ];
 
+// ── Find today's position in the plan ────────────────────────────────────
+function findToday() {
+  const now = new Date();
+  const MO = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const mo = MO[now.getMonth()];
+  const d  = now.getDate();
+  const gi = DAYS.findIndex(day => {
+    const part = day.date.split(", ")[1]; // "Mar 4"
+    const [dm, dd] = part.split(" ");
+    return dm === mo && parseInt(dd) === d;
+  });
+  if (gi < 0) return { week: 1, dayIdx: 0, found: false };
+  const w = DAYS[gi].week;
+  const wDays = DAYS.filter(x => x.week === w);
+  const di = wDays.findIndex(x => x === DAYS[gi]);
+  return { week: w, dayIdx: di, found: true };
+}
+
+function loadLS(key, def) {
+  try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : def; }
+  catch { return def; }
+}
+
 export default function App() {
-  const [week,setWeek]=useState(1);
-  const [dayIdx,setDayIdx]=useState(0);
+  const today = findToday();
+  const [week,setWeek]=useState(()=>today.week);
+  const [dayIdx,setDayIdx]=useState(()=>today.dayIdx);
   const [tab,setTab]=useState("schedule");
-  const [checks,setChecks]=useState({});
-  const [tasks,setTasks]=useState({});
+  const [checks,setChecks]=useState(()=>loadLS("gt-checks",{}));
+  const [tasks,setTasks]=useState(()=>loadLS("gt-tasks",{}));
+
+  useEffect(()=>{ localStorage.setItem("gt-tasks", JSON.stringify(tasks)); },[tasks]);
+  useEffect(()=>{ localStorage.setItem("gt-checks", JSON.stringify(checks)); },[checks]);
+
+  const goToToday=()=>{ if(today.found){ setWeek(today.week); setDayIdx(today.dayIdx); setTab("schedule"); } };
 
   const wDays=DAYS.filter(d=>d.week===week);
   const day=wDays[dayIdx]||wDays[0];
@@ -888,7 +917,10 @@ export default function App() {
         <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start"}}>
           <div>
             <h1 style={{fontSize:20,fontWeight:700,margin:0,color:"#f4f4f5",letterSpacing:-0.5}}>Battle Plan</h1>
-            <p style={{margin:"3px 0 0",fontSize:12,color:"#52525b"}}>Feb 27 – Mar 31&nbsp;&nbsp;·&nbsp;&nbsp;March 19 JPMC Deadline</p>
+            <p style={{margin:"3px 0 0",fontSize:12,color:"#52525b"}}>
+              Feb 27 – Mar 31&nbsp;&nbsp;·&nbsp;&nbsp;
+              {(()=>{const d=Math.ceil((new Date("2026-03-19").getTime()-Date.now())/(864e5));return d>0?<span style={{color:"#f87171",fontWeight:600}}>⚡ {d}d to JPMC exit</span>:<span style={{color:"#34d399",fontWeight:600}}>✅ Post-JPMC</span>})()}
+            </p>
           </div>
           {tab==="schedule"&&(
             <div style={{textAlign:"right"}}>
@@ -898,13 +930,19 @@ export default function App() {
           )}
         </div>
 
-        <div style={{display:"flex",gap:3,marginTop:12,overflowX:"auto",paddingBottom:2}}>
+        <div style={{display:"flex",gap:3,marginTop:12,overflowX:"auto",paddingBottom:2,alignItems:"center"}}>
           {[{id:"schedule",l:"Schedule"},{id:"sleep",l:"Sleep"},{id:"fitness",l:"Fitness"},{id:"checklist",l:"Mar 19"},{id:"rules",l:"Rules"}].map(t=>(
             <button key={t.id} onClick={()=>setTab(t.id)} style={{
               padding:"5px 11px",fontSize:11,fontWeight:600,borderRadius:6,border:"none",cursor:"pointer",
               background:tab===t.id?"#6366f1":"transparent",color:tab===t.id?"#fff":"#71717a",whiteSpace:"nowrap"
             }}>{t.l}</button>
           ))}
+          {today.found&&(
+            <button onClick={goToToday} style={{
+              marginLeft:"auto",padding:"5px 11px",fontSize:11,fontWeight:600,borderRadius:6,cursor:"pointer",whiteSpace:"nowrap",
+              background:"linear-gradient(135deg,#00d4ff,#1e90ff)",border:"none",color:"#050505",flexShrink:0
+            }}>Today</button>
+          )}
         </div>
 
         {tab==="schedule"&&(
@@ -921,10 +959,13 @@ export default function App() {
               {wDays.map((d,i)=>{
                 const dd=d.blocks.filter((_,j)=>tasks[`${week}-${i}-${j}`]).length;
                 const dp=Math.round((dd/d.blocks.length)*100);
+                const isToday=today.found&&d.week===today.week&&i===today.dayIdx;
                 return(
                   <button key={i} onClick={()=>setDayIdx(i)} style={{
-                    padding:"5px 9px",fontSize:10,fontWeight:600,borderRadius:5,border:"none",cursor:"pointer",textAlign:"center",
-                    background:dayIdx===i?"#1e2030":"transparent",color:dayIdx===i?"#f4f4f5":"#52525b",minWidth:50
+                    padding:"5px 9px",fontSize:10,fontWeight:600,borderRadius:5,cursor:"pointer",textAlign:"center",minWidth:50,
+                    background:dayIdx===i?"#1e2030":"transparent",
+                    color:dayIdx===i?"#f4f4f5":"#52525b",
+                    border:isToday?"1px solid #00d4ff":"1px solid transparent",
                   }}>
                     {d.date.split(",")[0]}<br/>
                     <span style={{fontSize:9,fontWeight:400}}>{d.date.split(", ")[1]}</span>
