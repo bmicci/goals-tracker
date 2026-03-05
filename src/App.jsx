@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import WellnessProtocol from "./WellnessProtocol";
 
 const CAT = {
   sleep: { label: "Sleep", icon: "🌙" },
@@ -914,7 +915,7 @@ function findToday(days) {
   return { week: w, dayIdx: di, found: true };
 }
 
-export default function App() {
+function BattlePlan() {
   const [dynDays,setDynDays]=useState(()=>{ const s=loadLS("gt-days",null); return s||seedDays(DAYS); });
   const today=findToday(dynDays);
   const [week,setWeek]=useState(()=>today.week);
@@ -1467,6 +1468,58 @@ export default function App() {
           </div>
         </div>
       )}
+    </div>
+  );
+}
+
+// ── Top-level app shell with mode switcher ───────────────────────────────────
+export default function App() {
+  const [mode, setMode] = useState(() => loadLS("gt-mode", "plan"));
+  useEffect(() => { localStorage.setItem("gt-mode", mode); }, [mode]);
+
+  if (mode === "wellness") return (
+    <div style={{ fontFamily: "'DM Sans',system-ui,sans-serif" }}>
+      <div style={{
+        position: "fixed", top: 0, left: 0, right: 0, zIndex: 200,
+        display: "flex", justifyContent: "center", padding: "8px 16px",
+        background: "#08090C", borderBottom: "1px solid #1E2330",
+      }}>
+        <div style={{ display: "flex", gap: 4, background: "#0F1117", borderRadius: 8, padding: 3 }}>
+          {[{id:"plan",l:"⚔️ Battle Plan"},{id:"wellness",l:"🧬 Wellness"}].map(m=>(
+            <button key={m.id} onClick={()=>setMode(m.id)} style={{
+              padding:"5px 14px", fontSize:11, fontWeight:600, borderRadius:6, cursor:"pointer", border:"none",
+              background:mode===m.id?"#6366f1":"transparent",
+              color:mode===m.id?"#fff":"#52525b",
+            }}>{m.l}</button>
+          ))}
+        </div>
+      </div>
+      <div style={{ paddingTop: 46 }}>
+        <WellnessProtocol />
+      </div>
+    </div>
+  );
+
+  return (
+    <div style={{ fontFamily: "'DM Sans',system-ui,sans-serif" }}>
+      <div style={{
+        position: "fixed", top: 0, left: 0, right: 0, zIndex: 200,
+        display: "flex", justifyContent: "center", padding: "8px 16px",
+        background: "#0c0d14", borderBottom: "1px solid #1e2030",
+      }}>
+        <div style={{ display: "flex", gap: 4, background: "#13141e", borderRadius: 8, padding: 3 }}>
+          {[{id:"plan",l:"⚔️ Battle Plan"},{id:"wellness",l:"🧬 Wellness"}].map(m=>(
+            <button key={m.id} onClick={()=>setMode(m.id)} style={{
+              padding:"5px 14px", fontSize:11, fontWeight:600, borderRadius:6, cursor:"pointer", border:"none",
+              background:mode===m.id?"#6366f1":"transparent",
+              color:mode===m.id?"#fff":"#52525b",
+            }}>{m.l}</button>
+          ))}
+        </div>
+      </div>
+      <div style={{ paddingTop: 46 }}>
+        <BattlePlan />
+      </div>
     </div>
   );
 }
