@@ -868,10 +868,12 @@ export default function App() {
   const [tab,setTab]=useState("schedule");
   const [checks,setChecks]=useState({});
   const [tasks,setTasks]=useState({});
+  const [catFilter,setCatFilter]=useState(null); // null = all, else category key
 
   const wDays=DAYS.filter(d=>d.week===week);
   const day=wDays[dayIdx]||wDays[0];
   const tog=(ns,k)=>ns==="t"?setTasks(p=>({...p,[k]:!p[k]})):setChecks(p=>({...p,[k]:!p[k]}));
+  const visibleBlocks=catFilter?day.blocks.filter(b=>b.cat===catFilter):day.blocks;
   const done=day.blocks.filter((_,i)=>tasks[`${week}-${dayIdx}-${i}`]).length;
   const pct=day.blocks.length?Math.round((done/day.blocks.length)*100):0;
 
@@ -911,7 +913,7 @@ export default function App() {
           <div style={{marginTop:10}}>
             <div style={{display:"flex",gap:5,marginBottom:6,flexWrap:"wrap"}}>
               {[1,2,3,4,5].map(w=>(
-                <button key={w} onClick={()=>{setWeek(w);setDayIdx(0)}} style={{
+                <button key={w} onClick={()=>{setWeek(w);setDayIdx(0);setCatFilter(null)}} style={{
                   padding:"4px 10px",fontSize:10,fontWeight:600,borderRadius:5,border:"none",cursor:"pointer",
                   background:week===w?(w===4?"#dc2626":"#3b82f6"):"#1a1b28",color:week===w?"#fff":"#71717a"
                 }}>{({1:"Feb 27–Mar 2",2:"Mar 3–9",3:"Mar 10–16",4:"⚠️ Mar 17–23",5:"Mar 24–31"})[w]}</button>
@@ -922,7 +924,7 @@ export default function App() {
                 const dd=d.blocks.filter((_,j)=>tasks[`${week}-${i}-${j}`]).length;
                 const dp=Math.round((dd/d.blocks.length)*100);
                 return(
-                  <button key={i} onClick={()=>setDayIdx(i)} style={{
+                  <button key={i} onClick={()=>{setDayIdx(i);setCatFilter(null)}} style={{
                     padding:"5px 9px",fontSize:10,fontWeight:600,borderRadius:5,border:"none",cursor:"pointer",textAlign:"center",
                     background:dayIdx===i?"#1e2030":"transparent",color:dayIdx===i?"#f4f4f5":"#52525b",minWidth:50
                   }}>
@@ -952,7 +954,24 @@ export default function App() {
               </div>
               <div style={{fontSize:10,color:"#52525b",marginTop:3}}>{done}/{day.blocks.length} completed</div>
             </div>
-            {day.blocks.map((b,i)=>{
+            {/* Category filter */}
+            <div style={{display:"flex",gap:4,flexWrap:"wrap",marginBottom:10}}>
+              <button onClick={()=>setCatFilter(null)} style={{
+                padding:"3px 9px",fontSize:10,fontWeight:600,borderRadius:12,border:"none",cursor:"pointer",
+                background:catFilter===null?"#6366f1":"#1a1b28",color:catFilter===null?"#fff":"#71717a"
+              }}>All</button>
+              {Object.entries(CAT).filter(([key])=>day.blocks.some(b=>b.cat===key)).map(([key,v])=>(
+                <button key={key} onClick={()=>setCatFilter(catFilter===key?null:key)} style={{
+                  padding:"3px 9px",fontSize:10,fontWeight:600,borderRadius:12,border:"none",cursor:"pointer",
+                  background:catFilter===key?CC[key]:"#1a1b28",color:catFilter===key?"#0c0d14":"#71717a"
+                }}>{v.icon} {v.label}</button>
+              ))}
+            </div>
+            {visibleBlocks.length===0&&(
+              <div style={{textAlign:"center",fontSize:12,color:"#52525b",padding:"20px 0"}}>No {CAT[catFilter]?.label} blocks today.</div>
+            )}
+            {visibleBlocks.map((b)=>{
+              const i=day.blocks.indexOf(b);
               const k=`${week}-${dayIdx}-${i}`;const chk=tasks[k];const col=CC[b.cat];
               return(
                 <div key={i} onClick={()=>tog("t",k)} style={{
